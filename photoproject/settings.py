@@ -137,6 +137,6 @@ EMAIL_HOST_USER = 'xxxx@gmail.com'
 EMAIL_HOST_PASSWORD = 'xxxxxxxxxxxxxxxxx'
 EMAIL_USE_TLS = True
 
-MEDIA=ROOT=os.path.join(BASE_DIR,'media')
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
 
